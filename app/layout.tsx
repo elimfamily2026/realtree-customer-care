@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./brand.css";
 
 export const metadata: Metadata = {
-  title: "Resolute — Amazon Customer Care",
+  title: "Realtree Customer Care",
   description: "A private Amazon customer-service SOP and case management workspace.",
 };
 
