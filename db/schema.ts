@@ -22,6 +22,7 @@ export const cases = sqliteTable("cases", {
   fulfillment: text("fulfillment").notNull(),
   notes: text("notes").notNull(),
   status: text("status").notNull().default("Open"),
+  archived: integer("archived", { mode: "boolean" }).notNull().default(false),
   nextAction: text("next_action").notNull(),
   dueAt: text("due_at").notNull(),
   createdBy: text("created_by").notNull(),
