@@ -86,6 +86,18 @@
   cursor: pointer;
 }
 
+.templateCard footer > div,
+.templateDrawerActions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.templateCard footer .deleteTemplate,
+.templateDrawerActions .deleteTemplate {
+  color: var(--red);
+}
+
 .templateDrawer article {
   width: min(680px, 94vw);
 }
@@ -101,8 +113,22 @@
   overflow-wrap: anywhere;
 }
 
-.copyFull {
+.templateDrawerActions {
   margin-top: 18px;
+}
+
+.templateDrawerActions button {
+  border: 1px solid var(--ink);
+  background: #fff;
+  padding: 12px 16px;
+  font-size: 9px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.templateDrawerActions .primary {
+  background: var(--ink);
+  color: #fff;
 }
 
 .placeholderNote {
