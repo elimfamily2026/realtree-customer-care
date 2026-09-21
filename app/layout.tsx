@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import "./brand.css";
 import "./templates.css";
+import "./login.css";
 
 export const metadata: Metadata = {
   title: "Realtree Customer Care",
