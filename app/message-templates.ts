@@ -1,4 +1,4 @@
-export type MessageTemplate = {id:string;code:string;category:string;title:string;whenToUse:string;body:string};
+export type MessageTemplate = {id:string;code:string;marketplace?:"Amazon"|"Walmart";category:string;title:string;whenToUse:string;body:string};
 
 export const messageTemplates: MessageTemplate[] = [
   {
