@@ -11,13 +11,6 @@
   "observability": {
     "enabled": true
   },
-  "d1_databases": [
-    {
-      "binding": "DB",
-      "database_name": "realtree-customer-care-db",
-      "database_id": "e35b163c-f8be-4c4c-91e0-da276df93124"
-    }
-  ],
   "rules": [
     {
       "type": "ESModule",
